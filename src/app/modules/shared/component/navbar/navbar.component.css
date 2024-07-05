@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS PEQUEÑOS (ej: celulares)*/
+  @media (min-width: 300px) and (max-width: 700px) {
+    mat-toolbar {
+      background-color: pink;
+    }
+  
+    #menuInicio {
+      display: none;
+    }
+  
+    
+  
+    #menuProductos {
+      display: none;
+    }
+  
+  }
+  
+  /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS GRANDES*/
+  @media (min-width: 700px) {
+    mat-toolbar {
+      background-color: cadetblue;
+    }
+  
+    #menuSecciones{
+      display: none;
+    };
+  
+  }
