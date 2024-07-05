@@ -5,7 +5,7 @@
   /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS PEQUEÑOS (ej: celulares)*/
   @media (min-width: 300px) and (max-width: 700px) {
     mat-toolbar {
-      background-color: pink;
+      background-color: rgb(255, 196, 0);
     }
   
     #menuInicio {
@@ -23,7 +23,7 @@
   /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS GRANDES*/
   @media (min-width: 700px) {
     mat-toolbar {
-      background-color: cadetblue;
+      background-color: rgb(255, 196, 0);
     }
   
     #menuSecciones{

@@ -1,0 +1,28 @@
+.color {
+    background-color: rgb(255, 196, 0) !important;
+}
+
+.color1 {
+    background-color: #000000 !important;
+}
+
+.colora {
+    color: rgb(255, 196, 0) !important;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footicon {
+    font-size: 30px;
+    margin: auto;
+    text-decoration: none;
+    color:#000000;
+    transition-duration: 100ms;
+}
+
+.footicon:hover {
+    color: white;
+}
+
