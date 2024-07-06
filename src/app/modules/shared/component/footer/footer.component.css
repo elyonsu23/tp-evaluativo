@@ -10,6 +10,10 @@
     color: rgb(255, 196, 0) !important;
 }
 
+
+
+
+
 .footer {
     margin-top: auto;
 }
@@ -20,9 +24,15 @@
     text-decoration: none;
     color:#000000;
     transition-duration: 100ms;
+    padding: 2px;
 }
 
 .footicon:hover {
-    color: white;
+    font-size: 32px;
+    margin: auto;
+    text-decoration: none;
+    color:#000000;
+    transition-duration: 100ms;
+    padding: 2px;
 }
 

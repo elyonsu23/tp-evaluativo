@@ -1,0 +1,13 @@
+/*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS PEQUEÑOS (ej: celulares)*/
+
+
+@media (min-width: 0px){
+    #carruselImg{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+  
+  
+}
