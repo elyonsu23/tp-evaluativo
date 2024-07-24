@@ -1,13 +1,24 @@
 /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS PEQUEÑOS (ej: celulares)*/
 
 
-@media (min-width: 0px){
-    #carruselImg{
+@media (min-width: 0px) {
+    #carruselImg {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
 
-  
-  
+
+
+}
+
+.text-style {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.button-style {
+    font-size: 17px;
+    font-style: oblique;
 }
