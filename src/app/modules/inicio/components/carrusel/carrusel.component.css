@@ -1,15 +1,13 @@
 /*Declaramos con palabra reservada MEDIA -> DISPOSITIVOS PEQUEÑOS (ej: celulares)*/
 
 
-@media (min-width: 0px) {
-    #carruselImg {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
 
 
-
+#carruselImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(0.8);
 }
 
 .text-style {
@@ -20,5 +18,10 @@
 
 .button-style {
     font-size: 17px;
+    font-style: oblique;
+}
+
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 }
